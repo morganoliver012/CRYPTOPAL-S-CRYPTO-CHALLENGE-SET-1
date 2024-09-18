@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Challenge Problem 1">
+      <UniqueIdentifier>{1c5ea578-42ea-4697-9644-862ee3973bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Challenge Problem 3">
+      <UniqueIdentifier>{d96c0a2a-8cfe-4a34-845e-8ab8348c7c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Challenge Problem 4">
+      <UniqueIdentifier>{6738af4c-707e-46cb-bb36-a6a9491a7e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Challenge Problem 5">
+      <UniqueIdentifier>{c236639b-2320-485f-92ec-5bc134e98911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Challenge Problem 6">
+      <UniqueIdentifier>{509c5fba-c860-4a63-8696-6e02ed30b487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Challenge Problem 7">
+      <UniqueIdentifier>{842deab5-f382-4e55-9bc1-f6d81253de9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Challenge Problem 8">
+      <UniqueIdentifier>{5fc51d1d-0b1a-4479-b663-c79bb78cc233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Challenge Problem 2">
+      <UniqueIdentifier>{e077e8e6-4d10-4221-bb62-c8074dcdeac5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FIXED_XOR_TEST_2.h">
+      <Filter>Header Files\Challenge Problem 2</Filter>
+    </ClInclude>
+    <ClInclude Include="XOR_strings_2.h">
+      <Filter>Header Files\Challenge Problem 2</Filter>
+    </ClInclude>
+    <ClInclude Include="hex_to_bits_2.h">
+      <Filter>Header Files\Challenge Problem 2</Filter>
+    </ClInclude>
+    <ClInclude Include="bits_to_hex_2.h">
+      <Filter>Header Files\Challenge Problem 2</Filter>
+    </ClInclude>
+    <ClInclude Include="XOR_chars_2.h">
+      <Filter>Header Files\Challenge Problem 2</Filter>
+    </ClInclude>
+    <ClInclude Include="XOR_bits_2.h">
+      <Filter>Header Files\Challenge Problem 2</Filter>
+    </ClInclude>
+    <ClInclude Include="HEX_TO_BASE_64_TEST.h">
+      <Filter>Header Files\Challenge Problem 1</Filter>
+    </ClInclude>
+    <ClInclude Include="SINGLE_BYTE_XOR_CIPHER_TEST.h">
+      <Filter>Header Files\Challenge Problem 3</Filter>
+    </ClInclude>
+    <ClInclude Include="DETECT_SINGLE_CHARECTER_XOR_TEST.h">
+      <Filter>Header Files\Challenge Problem 4</Filter>
+    </ClInclude>
+    <ClInclude Include="BREAK_REPEATING_KEY_XOR_TEST.h">
+      <Filter>Header Files\Challenge Problem 5</Filter>
+    </ClInclude>
+    <ClInclude Include="hex_to_bits_1.h">
+      <Filter>Header Files\Challenge Problem 1</Filter>
+    </ClInclude>
+    <ClInclude Include="bit_to_base64_1.h">
+      <Filter>Header Files\Challenge Problem 1</Filter>
+    </ClInclude>
+    <ClInclude Include="hex_to_base64_1.h">
+      <Filter>Header Files\Challenge Problem 1</Filter>
+    </ClInclude>
+    <ClInclude Include="XOR_Cipher_3.h">
+      <Filter>Header Files\Challenge Problem 3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
