@@ -9,7 +9,10 @@
 // OUTPUT <-- string ciphered XOR_Cipher 
 
 std::string XOR_Cipher_3(std::string message, char key) {
-	std::string result;
+	std::string result = "";
+	for (int i = 0; i < message.size(); i++) {
+		result += " ";
+	}
 
 	for (int i = 0; i < message.size(); i++) {
 		result[i] = XOR_Char_2(message[i], key);
