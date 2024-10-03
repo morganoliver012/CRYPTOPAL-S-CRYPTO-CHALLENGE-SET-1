@@ -21,12 +21,23 @@ int main() {
 
 	// CHALLENGE PROBLEM 2 TEST SUITE
 	//---------------------------------------------------------------------------------
-	/*
-	hex_to_bits_unit_test();
-	XOR_bits_unit_test();
+	
+	//hex_to_bits_unit_test();
+	//XOR_bits_unit_test();
+
+	unsigned char* hex1 =     "1c0111001f01010006";
+	unsigned char* hex2 =     "686974207468652062";
+	//			   expected = "746865206b69642064";
+
+	std::array<int, 4> hexhex_to_bits(hex1);
+	hex_to_bits(hex2);
+
+
 
 	Challenge_Problem_2_TESTS();
-	*/
+
+
+	
 	//---------------------------------------------------------------------------------
 
 
@@ -36,7 +47,7 @@ int main() {
 	
 
 
-	Challenge_Problem_3_TESTS();
+	//Challenge_Problem_3_TESTS();
 	
 	//---------------------------------------------------------------------------------
 
